@@ -1,0 +1,64 @@
+@import "tailwindcss" source("../");
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+
+  --color-navy: #0f172a;
+  --color-navy-800: #16213a;
+  --color-navy-700: #1e2a47;
+  --color-canvas: #f8fafc;
+  --color-ink: #0f172a;
+  --color-muted: #64748b;
+  --color-line: #e5e9f0;
+  --color-brand: #2563eb;
+  --color-brand-soft: #e8efff;
+  --color-positive: #16a34a;
+  --color-positive-soft: #e7f6ec;
+  --color-warning: #f59e0b;
+  --color-warning-soft: #fef4e2;
+  --color-danger: #ef4444;
+  --color-danger-soft: #fdecec;
+  --color-ai: #6d4aff;
+  --color-ai-soft: #f0ecff;
+
+  --shadow-card: 0 1px 2px rgba(15, 23, 42, 0.04), 0 4px 16px -6px rgba(15, 23, 42, 0.08);
+
+  --animate-rise: rise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+html {
+  background: var(--color-canvas);
+}
+
+body {
+  @apply m-0 text-ink antialiased;
+  font-family: var(--font-sans);
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+.card {
+  @apply rounded-2xl border border-line bg-white;
+  box-shadow: var(--shadow-card);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
