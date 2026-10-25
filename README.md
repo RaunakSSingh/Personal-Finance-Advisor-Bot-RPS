@@ -7,7 +7,7 @@ server-side calls so API keys never reach the browser.
 
 Live demo: https://stellar-blancmange-fa773e.netlify.app/
 
-Full documentation: https://1drv.ms/w/c/ffa04e4c624d533b/IQAVRPSpx0QmT5NvBGD5XOQeATreJwLBySYMGOl7G_H_Duk?e=Lpl9ci
+Full documentation: https://1drv.ms/w/c/ffa04e4c624d533b/IQAVRPSpx0QmT5NvBGD5XOQeATreJwLBySYMGOl7G_H_Duk?e=z99aAB
 
 ## What's live now
 - **Landing page** (`/`) — product story, how it works, privacy notice.
