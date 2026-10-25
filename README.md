@@ -6,6 +6,7 @@ monthly reports from **Finora AI**, powered by Google Gemini through
 server-side calls so API keys never reach the browser.
 
 Live demo: https://stellar-blancmange-fa773e.netlify.app/
+
 Full documentation: https://1drv.ms/w/c/ffa04e4c624d533b/IQBMk6jorePFT6QDH-Z9QQ9KAfgmm8-KaR6iW_glPlea4kw?e=TGTTgL
 
 ## What's live now
